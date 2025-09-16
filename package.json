@@ -1,0 +1,17 @@
+{
+  "name": "telegram-dating-bot",
+  "version": "1.0.0",
+  "description": "Telegram dating bot with profiles and admin-managed broadcasts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3"
+  }
+}
